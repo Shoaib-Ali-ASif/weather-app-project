@@ -50,30 +50,30 @@ search.addEventListener("click", () => {
       switch (json.weather[0].main) {
         case "Clear":
           image.src = "images/clear.png";
-          // bodyElement.style.background = linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 37%, rgba(0,126,152,1) 75%, rgba(0,212,255,1) 100%);
-          bodyElement.style.backgroundImage =
-            "linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12)";
+         bodyElement.style.backgroundimage =  rgb(173,172,199);
+         
           break;
-          break;
+          
 
         case "Rain":
           image.src = "images/rain.png";
-          bodyElement.style.backgroundImage =
-            "linear-gradient(to right top, #041937, #604d7a, #508793, #00bf72, #a8eb12)";
+        
           break;
 
         case "Snow":
           image.src = "images/snow.png";
+          
           break;
 
         case "Clouds":
           image.src = "images/cloud.png";
-          bodyElement.style.backgroundImage =
-          "linear-gradient(to right top, #041937, #604d7a, #508793, #00bf72, #a8eb12)";
+        
           break;
 
         case "Haze":
           image.src = "images/mist.png";
+          bodyElement.style.backgroundImage =
+          "linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12)";
           break;
 
         default:
