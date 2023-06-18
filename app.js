@@ -49,9 +49,7 @@ search.addEventListener("click", () => {
 
       switch (json.weather[0].main) {
         case "Clear":
-          image.src = "images/clear.png";
-         bodyElement.style.backgroundimage =  rgb(173,172,199);
-         
+          image.src = "images/clear.png";     
           break;
           
 
